@@ -1,0 +1,45 @@
+body{background-color: azure;}
+        .flex-container{
+            display: flex;
+            width: 80%;
+            flex-wrap: nowrap;
+            height: 80%;
+        }
+        .row{
+            flex-direction: row;
+            /* width: 100%; */
+        }
+        .flex-item{
+            font-size: 1.1em;
+            padding: 1px;
+        }
+        .article{
+            padding-left: 10px;
+        }
+        .nav{
+            background-color:cadetblue;
+            width: 30%;
+            padding-left: 10px;
+        }
+        .main{
+            background-color:azure;
+            width: 70%;
+        }
+        hr{
+            height: 2px;
+            background-color: cadetblue;
+        }
+        .heading{
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .subheading{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        a{
+            font-size: 12px;
+        }
+        h1{
+            text-align: center;
+        }
